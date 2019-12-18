@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app.kubernetes.io/name: hello-go
-      app.kubernetes.io/instance: hello-go
+      app.kubernetes.io/part-of: hello-go
   template:
     metadata:
       labels:
